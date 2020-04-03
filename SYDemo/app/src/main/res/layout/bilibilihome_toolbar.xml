@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.appcompat.widget.Toolbar xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    xmlns:fresco="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/base_toolbar"
+    android:background="@color/colorAccent"
+    android:fitsSystemWindows="true"
+
+    android:layout_height="?attr/actionBarSize">
+    <com.facebook.drawee.view.SimpleDraweeView
+        android:id="@+id/drawee_img"
+        fresco:roundAsCircle="true"
+        fresco:backgroundImage="@drawable/mytouxiang"
+        android:layout_gravity="center_vertical"
+
+        android:layout_width="45dp"
+        android:layout_height="45dp" />
+
+    <TextView
+        android:id="@+id/toolbar_title"
+        android:layout_marginLeft="10dp"
+        android:layout_gravity="center_vertical"
+        android:gravity="center"
+        android:background="@drawable/bilibilihome_bg"
+        android:layout_width="150dp"
+        android:layout_height="30dp"></TextView>
+</androidx.appcompat.widget.Toolbar>

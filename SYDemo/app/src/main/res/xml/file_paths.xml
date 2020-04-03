@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:android="http://schemas.android.com/apk/res/android">
+<path>
+    <external-files-path
+        name="name"
+        path="/mazaiting" />
+    <files-path name="name" path="path" /> 物理路径相当于Context.getFilesDir() + /path/
+
+    <cache-path name="name" path="path" /> 物理路径相当于Context.getCacheDir() + /path/
+
+    <external-path name="mySyDemoCache" path="/mySyDemoCache" /> 物理路径相当于Environment.getExternalStorageDirectory() + /path/
+
+    <external-files-path name="name" path="path" /> 物理路径相当于Context.getExternalFilesDir(String) + /path/
+
+    <external-cache-path name="name" path="path" /> 物理路径相当于Context.getExternalCacheDir() + /path/
+</path>
+</resources>

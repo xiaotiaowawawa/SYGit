@@ -1,2 +1,0 @@
-include ':app', ':smodela', ':symodelb', ':commondapi'
-rootProject.name='SYDemo'
